@@ -6,13 +6,13 @@ content-type:Application/json
 
 { "title":"Exercise"}
 ###
-GET http://localhost:3000/tasks/4
+GET http://localhost:3000/tasks/1
 
 ###
-PUT http://localhost:3000/tasks/4
+PUT http://localhost:3000/tasks/1
 content-type:Application/json
 
 { "title":"Exercise Gym"}
 
 ###
-DELETE http://localhost:3000/tasks/4
+DELETE http://localhost:3000/tasks/2
