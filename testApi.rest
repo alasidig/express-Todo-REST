@@ -1,0 +1,18 @@
+GET http://localhost:3000/tasks
+
+###
+POST http://localhost:3000/tasks
+content-type:Application/json
+
+{ "title":"Exercise"}
+###
+GET http://localhost:3000/tasks/4
+
+###
+PUT http://localhost:3000/tasks/4
+content-type:Application/json
+
+{ "title":"Exercise Gym"}
+
+###
+DELETE http://localhost:3000/tasks/4
