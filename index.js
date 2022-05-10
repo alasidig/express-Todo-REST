@@ -1,6 +1,8 @@
 const express = require('express')
+const cors = require('cors');
 const app = express()
 app.use(express.json())
+app.use(cors())
 const {getTasks, addTask, getTaskById, updateTask, deleteTask, getObjectOr404} = require("./models/tasksDbController");
 // const {getTasks, addTask, getTaskById, updateTask, deleteTask, getObjectOr404} = require("./models/tasksController");
 
